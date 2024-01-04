@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(108, 108, 108);
+}
+li{
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+
+.item {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height:30px;
+    background-color: rgb(62, 62, 62);
+}
